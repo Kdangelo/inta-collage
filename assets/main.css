@@ -1,31 +1,12 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #313433;
+background-color:#91A25F; 
 }
-.header {
+h1 {
   color: azure;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+  padding: 30px;
 }
-.photo {
-  color: aqua;
-  text-align: center;
-}
-#cajasoltar{
-  float: left;
-  width: 80vh;
-  height: 50vh;
-  margin: 5px;
-  border: 1px solid #999999;
-  color: azure;
-}
-#cajaimagenes{
-  float: left;
-  width: 100%;
-  margin: 5px;
-  border: 1px solid #999999;
-}
-#cajaimagenes > img{
-  padding: 5px;
-  display: inline-block;
+.inputPadding {
+  padding: 20px;
 }
