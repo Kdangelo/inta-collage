@@ -13,16 +13,19 @@
     <div class="col-sm-12">
       <h1>Insta Collage</h1>
     </div>
-    <div class="col-sm-4 offset-sm-4 inputPadding">
-      <input type="text" class="form-control" id="user" placeholder="Usuario" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
-    </div>
-    <div class="col-sm-4 offset-sm-4 inputPadding">
-      <input type="password" min="6" class="form-control" id="password" placeholder="Ingresa tu contraseña" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
-    </div>
-    <div class="col-sm-4 offset-sm-7">
-      <a href="index2.html"><button type="button" class="btn btn-secondary">Entrar</button></a>
-    </div>
+    <form class="col-sm-12" name="informacion" method="get" onsubmit="return validar();">
+      <div class="col-sm-4 offset-sm-4 inputPadding">
+        <input type="text" name="user" id="user" required class="form-control" placeholder="Usuario" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
+      </div>
+      <div class="col-sm-4 offset-sm-4 inputPadding">
+        <input type="password" name="password" id="password" minlength="6" required class="form-control" placeholder="Ingresa tu contraseña" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
+      </div>
+      <div class="col-sm-4 offset-sm-7">
+        <input type="submit" value="Ingresar" class="btn btn-secondary">
+      </div>
+    </form>
   </div>
+
 
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
